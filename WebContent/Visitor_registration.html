@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="icon"  href="logo.jpg" type="image/jpg"/>
+<style>
+body{
+      background:url(img/D3.jpg);
+      background-repeat:no-repeat;
+      background-size:100% 900px;  
+      background-position:0px 130px; 
+     }
+.simple-form{
+     text-align:center;
+     margin:100px 400px;
+}
+#registration{
+     width:100%;
+     background-color:black;
+     opacity:.7;
+     padding:50px 0px;
+     outline:0px;
+}
+#button{
+     width:250px;
+     padding:10px;
+     border-radius:5px;
+          outline:0px;
+}
+#number{
+     width:25px;
+     padding:10px;
+     border-radius:5px;
+     outline:0px;
+}
+#butt{
+     width:100px;
+     padding:10px;
+     border-radius:5px;
+     outline:0px;
+     color:white;
+     background-color:green;
+     border:2px solid #01010;
+}
+</style>
+</head>
+</body>
+    <div class="simple-form">
+      <form id="registration" action="VisitorRegistration" method="post">
+                  <label><b style="color:white">NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+         <input type="text" name="vname" id="button" required placeholder="Enter Your Name"><br><br>
+            <label><b style="color:white">COUNTRY NAME:</b></label>
+         <input type="text" name="name" id="button" placeholder="Enter Country Name"><br><br>
+         <label><b style="color:white">VISITING PLACE:</b></label>
+         <input type="text" name="vplace" id="button" required placeholder="Enter Place you want to visit"><br><br>
+                     <label><b style="color:white">DATE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+         <input type="date" name="vdate" id="button"><br><br>
+                     <label><b style="color:white">E-MAIL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                       <input type="email" name="email" id="button" required placeholder="Enter Your e-mail ID"><br><br>
+                            <label><b style="color:white">PASSWORD:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+                <input type="password" name="password" id="button" required placeholder="Create Your Password"><br><br>
+                                  <input type="submit" name="submit" value="register" id="butt"/>
+                                <a href="Visitor_login.html">BACK </a>
+               
+                
+      </form>
+    
+    </div>
+</body>
+</html>

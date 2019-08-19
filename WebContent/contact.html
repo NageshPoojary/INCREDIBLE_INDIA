@@ -1,0 +1,86 @@
+<HTML><HEAD><TITLE>FEEDBACK FORM</TITLE>
+<link rel="icon"  href="logo.jpg" type="image/jpg"/>
+<style>
+body{
+      margin:0px;
+      padding:0px;
+      background:url(img/);
+      background-repeat:no-repeat;
+      background-size:100% 1500px;       
+      background-position:0px 130px; 
+      font-family:sans-serif;
+
+}
+.loginbox{
+   width:480px;
+   height:890px;
+   background:rgba(0,0,0,0.3);
+   color:black;
+   top:85%;
+   left:50%;
+   position:absolute;
+   transform:translate(-50%,-50%);
+   box-sizing:border-box;
+   padding:70px 30px;
+}
+
+input[type=text],select{
+align:center;
+width:100%;
+color:black;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid #ccc;
+border-radius:4px;
+box-sizing:border-box;
+
+}
+
+
+input[type=submit]{
+align:center;
+width:100%;
+background-color:#4CAF50;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+
+textarea{
+  text-color:black;
+}
+input[type=submit]:hover{
+
+background-color:#45a049;
+}
+
+
+</style>
+
+
+</HEAD>
+<BODY background="1111.jpg">
+
+ <form action="feedback" method="post">
+<div class="loginbox">
+<lable>NAME           :<br><input type="text" name="name"  required placeholder="ENTER YOUR NAME"/> </lable> <br><br>
+<lable>GENDER         :<input type=radio name="gender" checked value=male>Male<input type=radio name=gender value=female>Female</lable><br><br>
+<lable>E-MAIL ID      :<input type="text" name="email" required placeholder="ENTER YOUR E-MAIL"></lable><br><br>
+<lable>MOBILE NO.     :<input type="text" name="mobileno" size=35 maxlength=30 required placeholder="ENTER YOUR MOBILE NO."></llable>
+<lable>CITY           :<input type="text" name="city" size=35 maxlength=50 required placeholder="ENTER YOUR CITY."></llable>
+<lable>PINCODE        :<input type="text" name="pincode" size=35 maxlength=6 required placeholder="ENTER YOUR PINCODE."></llable>
+<lable>STATE          :<input type="text" name="state" size=35 maxlength=50 required  placeholder="ENTER YOUR STATE."></llable>
+<lable>YOUR COMMENTS/SUGGETIONS :<TEXTAREA  COLS=54 ROWS=5 name="comments" maxlength=600 ></TEXTAREA></lable>
+
+<br><br><br>
+       <input type="submit" name="submit" value="SUBMIT" /><br><br>
+
+</div>
+</form>
+
+</body>
+</html>
